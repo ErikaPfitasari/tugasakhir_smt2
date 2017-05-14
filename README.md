@@ -21,10 +21,11 @@ pengguna hanya perlu menuliskan catatan, setelah menuliskan catatan, tinggal atu
 ingin menonton sebuah film dengan jadwal yang telah anda atur sendiri, sehingga anda hanya perlu menuliskan catatan akan menonton film apa beserta waktu anda menonton film,
 jadi anda tidak perlu khawatir kelewatan atau lupa menonton film yang anda inginkan. Mudah bukan?<br>
 <br>
-(-) Kelebihan Aplikasi Moviekuy : 
--> Desain simple sehingga dapat dikatakan "User Friendly"
--> Memiliki fitur menarik berupa : list film yang sedang tayang, yang akan tayang, dan yang terpopuler
--> Memiliki fasilitas reminder, yang terdiri dari catatan dan alarm 
+(-) Kelebihan Aplikasi Moviekuy : <br>
+-> Desain simple sehingga dapat dikatakan "User Friendly" <br>
+-> Memiliki fitur menarik berupa : list film yang sedang tayang, yang akan tayang, dan yang terpopuler <br>
+-> Memiliki fasilitas reminder, yang terdiri dari catatan dan alarm <br>
+<br>
 
 ![screenshot_2017-05-14-21-57-36-74](https://cloud.githubusercontent.com/assets/22217533/26035288/1fa5defa-38f4-11e7-82b4-5a9f37569181.png)<br>
 ![screenshot_2017-05-14-21-57-54-33](https://cloud.githubusercontent.com/assets/22217533/26035285/1fa052aa-38f4-11e7-8a80-7e035dcf1ecc.png)<br>
