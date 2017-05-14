@@ -1,8 +1,13 @@
 package id.sch.smktelkom_mlg.privateassignment.xirpl510.moviekuy;
 
+import android.app.AlarmManager;
+import android.app.PendingIntent;
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v4.app.Fragment;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -13,8 +18,18 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import java.util.Calendar;
+
+import id.sch.smktelkom_mlg.privateassignment.xirpl510.moviekuy.alarm.AlarmReceiver;
+import id.sch.smktelkom_mlg.privateassignment.xirpl510.moviekuy.fragment.HomeFragment;
+import id.sch.smktelkom_mlg.privateassignment.xirpl510.moviekuy.fragment.PopularFragment;
+import id.sch.smktelkom_mlg.privateassignment.xirpl510.moviekuy.fragment.SoonFragment;
+import id.sch.smktelkom_mlg.privateassignment.xirpl510.moviekuy.fragment.TaskFragment;
+
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+
+    PendingIntent pendingIntent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,22 +37,16 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
+        Intent alarmIntent = new Intent(MainActivity.this, AlarmReceiver.class);
+        pendingIntent = PendingIntent.getBroadcast(MainActivity.this, 0, alarmIntent, 0);
+        startNotifications();
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.setDrawerListener(toggle);
         toggle.syncState();
-
+        changePage(R.id.nav_home);
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
     }
@@ -79,23 +88,38 @@ public class MainActivity extends AppCompatActivity
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
+        changePage(id);
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        return true;
+    }
 
-        } else if (id == R.id.nav_slideshow) {
+    private void changePage(int id) {
 
-        } else if (id == R.id.nav_manage) {
-
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
-
+        Fragment fragment = null;
+        if (id == R.id.nav_home) {
+            fragment = new HomeFragment();
+        } else if (id == R.id.nav_popular) {
+            fragment = new PopularFragment();
+        } else if (id == R.id.nav_soon) {
+            fragment = new SoonFragment();
+        } else if (id == R.id.nav_task){
+            fragment = new TaskFragment();
         }
 
+        getSupportFragmentManager().beginTransaction().replace(R.id.container, fragment).commitNow();
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
-        return true;
+    }
+
+    public void startNotifications() {
+        AlarmManager manager = (AlarmManager) getSystemService(Context.ALARM_SERVICE);
+        Calendar calendar = Calendar.getInstance();
+        calendar.setTimeInMillis(System.currentTimeMillis());
+        calendar.set(Calendar.HOUR_OF_DAY, 9);
+        calendar.set(Calendar.MINUTE, 0);
+        calendar.set(Calendar.SECOND, 0);
+
+        manager.setRepeating(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(),
+                1000 * 60 , pendingIntent);
     }
 }
