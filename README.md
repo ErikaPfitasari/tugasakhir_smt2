@@ -30,6 +30,5 @@ jadi anda tidak perlu khawatir kelewatan atau lupa menonton film yang anda ingin
 ![screenshot_2017-05-14-21-57-36-74](https://cloud.githubusercontent.com/assets/22217533/26035288/1fa5defa-38f4-11e7-82b4-5a9f37569181.png)<br>
 ![screenshot_2017-05-14-21-57-54-33](https://cloud.githubusercontent.com/assets/22217533/26035285/1fa052aa-38f4-11e7-8a80-7e035dcf1ecc.png)<br>
 ![screenshot_2017-05-14-21-58-01-82](https://cloud.githubusercontent.com/assets/22217533/26035289/1fb3d4ec-38f4-11e7-8714-7417157df843.png)<br>
-![Uploading Screenshot_2017-05-14-21-58-11-84.png…]()<br>
 ![screenshot_2017-05-14-22-02-22-40](https://cloud.githubusercontent.com/assets/22217533/26035286/1fa2e6e6-38f4-11e7-8ab6-a77ecb894113.png)<br>
 ![screenshot_2017-05-14-22-03-24-35](https://cloud.githubusercontent.com/assets/22217533/26035290/1fb64f2e-38f4-11e7-98c5-635afe87b5e8.png)<br>
