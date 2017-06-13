@@ -40,13 +40,10 @@ FITUR PENGINGAT JADWAL NONTON FILM MENGGUNAKAN LOCALDB :
 ![whatsapp image 2017-06-13 at 11 15 45 3](https://user-images.githubusercontent.com/22217533/27065853-191cfc38-502a-11e7-9384-549978f39bf3.jpeg)<br>
 2. CONTOHNYA SEPERTI INI : <br>
 ![whatsapp image 2017-06-13 at 11 25 54 3](https://user-images.githubusercontent.com/22217533/27066047-8ce4b678-502b-11e7-9a56-cc28ce8b4560.jpeg)<br>
-<br>
 3. KLIK OK, DAN JADWAL MENONTON FILM DENGAN OTOMATIS AKAN TERSIMPAN DAN MUNCUL PADA LIST TASK<br>
 ![whatsapp image 2017-06-13 at 11 25 54 2](https://user-images.githubusercontent.com/22217533/27066044-8ce16a22-502b-11e7-9de2-364cdd6bb9e9.jpeg)<br>
-<br>
 4. BILA TIBA WAKTUNYA MENONTON FILM, PENGGUNA AKAN MENERIMA NOTIF SEBAGAI PENGINGAT JADWAL MENONTON FILM YANG TELAH DIINPUTKAN SEBELUMNYA<br>
 ![whatsapp image 2017-06-13 at 11 25 54 1](https://user-images.githubusercontent.com/22217533/27066046-8ce4ab60-502b-11e7-9cee-f54c1921fbc4.jpeg)<br>
-<br>
 5. BILA TELAH SELESAI, JADWAL TERSEBUT BISA DIHAPUS DENGAN CARA MENKLIK TOMBOL YANG BERBENTUK ICON "RUBBISH/SAMPAH"<br>
 ![whatsapp image 2017-06-13 at 11 25 54](https://user-images.githubusercontent.com/22217533/27066045-8ce23182-502b-11e7-803f-d9bbbb7a1c3d.jpeg)
 
