@@ -38,7 +38,6 @@ FITUR PENGINGAT JADWAL NONTON FILM MENGGUNAKAN LOCALDB :
 
 1. TULIS JUDUL FILM DAN SETTING WAKTU UNTUK MENONTON FILM<br>
 ![whatsapp image 2017-06-13 at 11 15 45 3](https://user-images.githubusercontent.com/22217533/27065853-191cfc38-502a-11e7-9384-549978f39bf3.jpeg)<br>
-<br>
 2. CONTOHNYA SEPERTI INI : <br>
 ![whatsapp image 2017-06-13 at 11 25 54 3](https://user-images.githubusercontent.com/22217533/27066047-8ce4b678-502b-11e7-9a56-cc28ce8b4560.jpeg)<br>
 <br>
