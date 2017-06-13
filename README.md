@@ -24,7 +24,7 @@ jadi anda tidak perlu khawatir kelewatan atau lupa menonton film yang anda ingin
 (-) Kelebihan Aplikasi Moviekuy : <br>
 -> Desain simple sehingga dapat dikatakan "User Friendly" <br>
 -> Memiliki fitur menarik berupa : list film yang sedang tayang, yang akan tayang, dan yang terpopuler <br>
--> Memiliki fasilitas reminder, yang terdiri dari catatan dan alarm <br>
+-> Memiliki fasilitas pengingat jadwal menonton film berupa note dan alarm <br>
 <br>
 
 ![screenshot_2017-05-14-21-57-36-74](https://cloud.githubusercontent.com/assets/22217533/26035288/1fa5defa-38f4-11e7-82b4-5a9f37569181.png)<br>
