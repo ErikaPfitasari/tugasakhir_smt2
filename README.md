@@ -29,9 +29,12 @@ jadi anda tidak perlu khawatir kelewatan atau lupa menonton film yang anda ingin
 
 ![screenshot_2017-05-14-21-57-36-74](https://cloud.githubusercontent.com/assets/22217533/26035288/1fa5defa-38f4-11e7-82b4-5a9f37569181.png)<br>
 ![screenshot_2017-05-14-21-57-54-33](https://cloud.githubusercontent.com/assets/22217533/26035285/1fa052aa-38f4-11e7-8a80-7e035dcf1ecc.png)<br>
-![screenshot_2017-05-14-21-58-01-82](https://cloud.githubusercontent.com/assets/22217533/26035289/1fb3d4ec-38f4-11e7-8714-7417157df843.png)<br>
-<br>
-Fitur reminder (NOTES+ALARM)<br>
-![screenshot_2017-05-14-21-58-11-84](https://cloud.githubusercontent.com/assets/22217533/26035854/c51238e4-38fd-11e7-8516-3a630c449ec7.png) <br>
-![screenshot_2017-05-14-22-02-22-40](https://cloud.githubusercontent.com/assets/22217533/26035286/1fa2e6e6-38f4-11e7-8ab6-a77ecb894113.png)<br>
-![screenshot_2017-05-14-22-03-24-35](https://cloud.githubusercontent.com/assets/22217533/26035290/1fb64f2e-38f4-11e7-98c5-635afe87b5e8.png)<br>
+![whatsapp image 2017-06-13 at 11 15 22](https://user-images.githubusercontent.com/22217533/27065854-191d705a-502a-11e7-9c8b-508f9e64af5b.jpeg)
+![whatsapp image 2017-06-13 at 11 15 45 4](https://user-images.githubusercontent.com/22217533/27065851-1919fc0e-502a-11e7-9e9b-0f260a15e188.jpeg)
+
+FITUR PENGINGAT JADWAL NONTON FILM MENGGUNAKAN LOCALDB : 
+
+![whatsapp image 2017-06-13 at 11 15 45 3](https://user-images.githubusercontent.com/22217533/27065853-191cfc38-502a-11e7-9384-549978f39bf3.jpeg)
+![whatsapp image 2017-06-13 at 11 15 45 2](https://user-images.githubusercontent.com/22217533/27065855-191e241e-502a-11e7-82fc-e617a170d986.jpeg)
+![whatsapp image 2017-06-13 at 11 15 45 1](https://user-images.githubusercontent.com/22217533/27065852-191cb1a6-502a-11e7-90c9-c68d36fed13e.jpeg)
+![whatsapp image 2017-06-13 at 11 15 45](https://user-images.githubusercontent.com/22217533/27065850-1919c838-502a-11e7-8195-2ed059f004f0.jpeg)
